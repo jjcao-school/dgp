@@ -2,7 +2,8 @@
 
 这里提供本课程中所使用的一些软件的简单介绍和使用说明等。
 
-- [common softwares](https://github.com/jjcao-school/common/tree/main/softwares)
+- common softwares[->](https://github.com/jjcao-school/common/tree/main/softwares)
+- 
 - Deep Exploration (or its next version: SAP Visual Enterprise Author) for browsing, converting & simplifing meshes
 - MeshLab: mesh viewer & large amount of basic operations
 
