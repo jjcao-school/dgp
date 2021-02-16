@@ -10,7 +10,14 @@ Digital geometry processing (DGP), a subfield of computer graphics will be intro
 
 ## 1. Course Notes
 
-## 2. Assignments [->](assignments/) 
+## 2. Assignments
+- [Rules & Setup](assignments/)
+- [Assignment 1: Hello World (Mesh display, Connected Components & Subdivision)](assignments/assignment_1), deadline: TBD
+- [Assignment 2: Implicit Surface Reconstruction](assignments/assignment_2), deadline: TBD
+- [Assignment 3: ](), deadline: TBD
+- [Assignment 4: ](), deadline: TBD
+- [Assignment 5: ](), deadline: TBD
+
 ## 3. Resources
 ### Suggestions [->](https://github.com/jjcao-school/common/tree/main/for_students)
 ### Softwares [->](softwares/) 
