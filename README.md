@@ -13,6 +13,7 @@ In this course, we study the algorithms and mathematics for representing, analyz
     [pdf](ftp://nozdr.ru/biblio/kolxo3/Cs/CsCg/Botsch%20M.,%20et%20al.%20Polygon%20mesh%20processing%20(AK%20Peters,%202010)(ISBN%201568814267)(C)(O)(243s)_CsCg_.pdf), with ppt & source code @ http://www.pmp-book.org.
 
 ## 1. Course Notes
+- [00_introduction](http://pan-yz.chaoxing.com/share/info/e08e55692d3641d4)
 
 ## 2. Assignments
 - [Rules & Setup](assignments/)
