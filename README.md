@@ -1,9 +1,13 @@
 # Digital Geometry 2021 (DLUT)
 ## 0. Introduction
 
-Digital geometry processing (DGP), a subfield of computer graphics will be introduced in this course. Recent innovation in 3D acquisition (3D scanning, realtime depth sensor) and 3D production (3D printing) technologies, has made DGP become one of the vital technologies in applications ranging from visual effects, interactive games, CAD, machine perception, robotics to other related fields. This course will introduct primary representations of geometry shapes and how to  analysis and process geometry shapes on these representations. 
+Digital geometry processing (DGP), a subfield of computer graphics will be introduced in this course. Recent innovation in 3D acquisition (3D scanning, realtime depth sensor) and 3D production (3D printing) technologies, has made DGP become one of the vital technologies in applications ranging from CAD, interactive games, machine perception, robotics to other related fields. 
 
-- Course Instructor：[Junjie Cao](http://jjcao.github.io/); Email: jjcao at dlut.edu.cn; 
+<!-- In this course, students should have a background in Linear Algebra and Computer Programming. -->
+In this course, we study the algorithms and mathematics for representing, analyzing and manipulating geometric data. "These essential tools enable: geometric modeling for computer aided design, life-like animations for computer graphics, reliable physical simulations, and robust scene representations for computer vision." We wish students will implement a recent paper in the style of a [libigl tutorial](https://libigl.github.io/tutorial/), finally.
+
+
+- Course Instructor: [Junjie Cao](http://jjcao.github.io/); Email: jjcao at dlut.edu.cn; 
 - Lectures: Tuesday & Thursdays at 18:00 - 18:45, 18:55 - 19:40. 研教楼312.
 - Textbook: <img src="https://images.tandf.co.uk/common/jackets/amazon/978156881/9781568814261.jpg"  width="20%" alt="M. Botsch, L. Kobbelt, M. Pauly, P. Alliez, and B. Lévy. Polygon mesh processing. CRC press, 2010." />
     [pdf](ftp://nozdr.ru/biblio/kolxo3/Cs/CsCg/Botsch%20M.,%20et%20al.%20Polygon%20mesh%20processing%20(AK%20Peters,%202010)(ISBN%201568814267)(C)(O)(243s)_CsCg_.pdf), with ppt & source code @ http://www.pmp-book.org.
@@ -23,6 +27,7 @@ Digital geometry processing (DGP), a subfield of computer graphics will be intro
 ### Softwares [->](softwares/) 
 - Deep Exploration (or its next version: SAP Visual Enterprise Author) for browsing, converting & simplifing meshes
 - MeshLab: mesh viewer & large amount of basic operations
+- [CloudCompare](https://www.danielgm.net/cc/): 3D point cloud and mesh processing software
 
 ### References:
 - Geometric Modeling - CSCI-GA.3033-018, Daniele Panozzo
