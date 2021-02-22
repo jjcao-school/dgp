@@ -24,12 +24,39 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [Assignment 5: ](), deadline: TBD
 
 ## 3. Reading Topics
-### Implicit neural representations
-- Implicit Geometric Regularization for Learning Shapes, 2020, Yaron Lipman
-<!-- - [SIREN2020], Implicit Neural Representations with Periodic Activation Functions, nips 2020 -->
-- Deep Local Shapes: Learning Local SDF Priors for Detailed 3D Reconstruction 2020
-- MetaSDF: Meta-learning Signed Distance Functions, 2020
 ### Normal estimation
+
+### Implicit neural representations [1]
+- Convolutional Occupancy Networks
+- Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion, 19
+- 
+- DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation, 19
+- Deep Local Shapes: Learning Local SDF Priors for Detailed 3D Reconstruction 2020
+- 
+- MetaSDF: Meta-learning Signed Distance Functions, 2020
+
+### Implicit neural representations [2]
+- Points2Surf 2020
+- Local Deep Implicit Functions for 3D Shape 2020 [a set of ellipses]
+- Neural Unsigned Distance Fields for ImplicitFunction Learning 2020
+- Neural Geometric Level of Detail: Real-time Rendering with Implicit 3D Shapes 2021 [octree]
+
+### Implicit neural representations [3]
+- Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations, nips19.
+- Implicit Geometric Regularization for Learning Shapes, 2020, Yaron Lipman
+- SAL: Sign Agnostic Learning of Shapes from Raw Data 2020
+- SALD: Sign Agnostic Learning with Derivatives, icld 2021
+- [SIREN2020], Implicit Neural Representations with Periodic Activation Functions, nips 2020
+<!-- - DIST: Rendering deep implicit signed distance function with differentiable sphere tracing, cvpr20
+- SDFDiff: Differentiable rendering of signed distance fields for 3D shape optimization, cvpr20 -->
+
+
+<!-- ### Reconstruction
+- Deep Marching Cubes: Learning Explicit Surface Representations, cvpr18 
+- MeshSDF: Differentiable Iso-Surface Extraction, 2020 [image 2 mesh]
+- Multiview Neural Surface Reconstruction by Disentangling Geometry and Appearance 2020 -->
+
+
 ### Object detection
 ### Tracking
 ### Matching
