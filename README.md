@@ -32,6 +32,7 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - 
 - DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation, 19
 - Deep Local Shapes: Learning Local SDF Priors for Detailed 3D Reconstruction 2020
+- PatchNets: Patch-Based Generalizable Deep Implicit 3D Shape Representations 2021
 - 
 - MetaSDF: Meta-learning Signed Distance Functions, 2020
 
@@ -47,19 +48,28 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - SAL: Sign Agnostic Learning of Shapes from Raw Data 2020
 - SALD: Sign Agnostic Learning with Derivatives, icld 2021
 - [SIREN2020], Implicit Neural Representations with Periodic Activation Functions, nips 2020
-<!-- - DIST: Rendering deep implicit signed distance function with differentiable sphere tracing, cvpr20
+
+<!--
+### Implicit neural representations [4]
+- Neural Volumes: Learning Dynamic Renderable Volumes from Images, sig19
+- Deep Implicit Templates for 3D Shape Representation, 2020
+- DIST: Rendering deep implicit signed distance function with differentiable sphere tracing, cvpr20
 - SDFDiff: Differentiable rendering of signed distance fields for 3D shape optimization, cvpr20 -->
 
 
-<!-- ### Reconstruction
+### Reconstruction
 - Deep Marching Cubes: Learning Explicit Surface Representations, cvpr18 
 - MeshSDF: Differentiable Iso-Surface Extraction, 2020 [image 2 mesh]
-- Multiview Neural Surface Reconstruction by Disentangling Geometry and Appearance 2020 -->
-
-
-### Object detection
+- PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization
+- ARCH: Animatable Reconstruction of Clothed Humans (CVPR 2020)
+- Multiview Neural Surface Reconstruction by Disentangling Geometry and Appearance 2020
+  
+<!-- ### Object detection -->
 ### Tracking
-### Matching
+- Robust Multi-Modality Multi-Object Tracking 2019
+- Probabilistic 3D Multi-Modal, Multi-Object Tracking
+for Autonomous Driving 2020
+<!-- ### Matching -->
 
 ## 4. Resources
 ### Suggestions [->](https://github.com/jjcao-school/common/tree/main/for_students)
