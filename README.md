@@ -23,8 +23,20 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [Assignment 4: ](), deadline: TBD
 - [Assignment 5: ](), deadline: TBD
 
-## 3. Resources
+## 3. Reading Topics
+### Implicit neural representations
+- Implicit Geometric Regularization for Learning Shapes, 2020, Yaron Lipman
+<!-- - [SIREN2020], Implicit Neural Representations with Periodic Activation Functions, nips 2020 -->
+- Deep Local Shapes: Learning Local SDF Priors for Detailed 3D Reconstruction 2020
+- MetaSDF: Meta-learning Signed Distance Functions, 2020
+### Normal estimation
+### Object detection
+### Tracking
+### Matching
+
+## 4. Resources
 ### Suggestions [->](https://github.com/jjcao-school/common/tree/main/for_students)
+
 ### Softwares [->](softwares/) 
 - Deep Exploration (or its next version: SAP Visual Enterprise Author) for browsing, converting & simplifing meshes
 - MeshLab: mesh viewer & large amount of basic operations
