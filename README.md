@@ -34,7 +34,7 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - Deep Local Shapes: Learning Local SDF Priors for Detailed 3D Reconstruction 2020
 - PatchNets: Patch-Based Generalizable Deep Implicit 3D Shape Representations 2021
 - 
-- MetaSDF: Meta-learning Signed Distance Functions, 2020
+- **MetaSDF: Meta-learning Signed Distance Functions, 2020**
 
 ### Implicit neural representations [2]
 - Points2Surf 2020
@@ -43,11 +43,11 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - Neural Geometric Level of Detail: Real-time Rendering with Implicit 3D Shapes 2021 [octree]
 
 ### Implicit neural representations [3]
-- Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations, nips19.
+- Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations, NeurIPS 2019.
 - Implicit Geometric Regularization for Learning Shapes, 2020, Yaron Lipman
 - SAL: Sign Agnostic Learning of Shapes from Raw Data 2020
 - SALD: Sign Agnostic Learning with Derivatives, icld 2021
-- [SIREN2020], Implicit Neural Representations with Periodic Activation Functions, nips 2020
+- **[SIREN2020], Implicit Neural Representations with Periodic Activation Functions, NeurIPS 2020 (Oral)**
 
 <!--
 ### Implicit neural representations [4]
@@ -59,6 +59,7 @@ In this course, we study the algorithms and mathematics for representing, analyz
 
 ### Reconstruction
 - Deep Marching Cubes: Learning Explicit Surface Representations, cvpr18 
+- Analytic Marching: An Analytic Meshing Solution from Deep Implicit Surface Networks 2020
 - MeshSDF: Differentiable Iso-Surface Extraction, 2020 [image 2 mesh]
 - PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization
 - ARCH: Animatable Reconstruction of Clothed Humans (CVPR 2020)
