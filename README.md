@@ -13,14 +13,32 @@ In this course, we study the algorithms and mathematics for representing, analyz
     [pdf](ftp://nozdr.ru/biblio/kolxo3/Cs/CsCg/Botsch%20M.,%20et%20al.%20Polygon%20mesh%20processing%20(AK%20Peters,%202010)(ISBN%201568814267)(C)(O)(243s)_CsCg_.pdf), with ppt & source code @ http://www.pmp-book.org.
 
 ## 1. Course Notes
-- [00_introduction](http://pan-yz.chaoxing.com/share/info/e08e55692d3641d4)
-
+- [00_introduction](http://pan-yz.chaoxing.com/share/info/500d49595b4a971f)
+- [01_00_geometry & its representations](http://pan-yz.chaoxing.com/share/info/bce1099958c1faaf)
+- [01_01_implicit_representations](http://pan-yz.chaoxing.com/share/info/4d2497d6e132c4d1)
+- [01_02_explicit_representations](http://pan-yz.chaoxing.com/share/info/d6056d09fb0fab80)
+- [01_03_01_meshes and manifolds]()
+- [01_03_02_meshes_datastructure](): Halfedge
+- [01_04_implicit_explicit_conversion](): Marching Cube
+- [02_00_intro_scanning]()
+- [02_01_points](): knn, filter
+- [02_02_unoriented_normals](): PCA, RANSAC, n-jet
+- [02_03_oriented_normals](): 
+- [02_03_consolidation](): 
+- [03_intro_reconstruction]()
+- [04_00_smoothing]():
+- [04_00_remeshing]():
+- [05_01_icp]()
+- [05_01_matching]():
+- [06_DDG]():
+- [07_parameterization]():
+- 
 ## 2. Assignments
 - [Rules & Setup](assignments/)
-- [Assignment 1: Hello World (Mesh display, Connected Components & Subdivision)](assignments/assignment_1), deadline: TBD
-- [Assignment 2: Implicit Surface Reconstruction](assignments/assignment_2), deadline: TBD
-- [Assignment 3: ](), deadline: TBD
-- [Assignment 4: ](), deadline: TBD
+- [Assignment 1: Hello World (Mesh display, Connected Components & Subdivision)](assignments/Assignment_1), deadline: TBD
+- [Assignment 2: Implicit Surface Reconstruction](assignments/Assignment_2), deadline: TBD
+- [Assignment 3: Normals, Curvatures, and Smoothing](assignments/Assignment_3), deadline: TBD
+- [Assignment 4: ICP](), deadline: TBD
 - [Assignment 5: ](), deadline: TBD
 
 ## 3. Reading Topics
