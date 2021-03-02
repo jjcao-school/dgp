@@ -17,6 +17,7 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [01_00_geometry & its representations](http://pan-yz.chaoxing.com/share/info/bce1099958c1faaf)
 - [01_01_implicit_representations](http://pan-yz.chaoxing.com/share/info/4d2497d6e132c4d1)
 - [01_02_explicit_representations](http://pan-yz.chaoxing.com/share/info/d6056d09fb0fab80)
+- TODO
 - [01_03_01_meshes and manifolds]()
 - [01_03_02_meshes_datastructure](): Halfedge
 - [01_04_implicit_explicit_conversion](): Marching Cube
