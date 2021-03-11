@@ -44,6 +44,11 @@ In this course, we study the algorithms and mathematics for representing, analyz
 
 ## 3. Reading Topics
 ### Normal estimation
+- Deep Iterative Surface Normal Estimations, cvpr 2020.
+- DeepFit: 3D Surface Fitting via Neural Network Weighted Least Squares, eccv 2020
+- PCPNET: Learning Local Shape Properties from Raw Point Clouds, eg 2018
+- Latent Tangent Space Representation for Normal Estimation, tie 2021
+- Normal Estimation for Accurate 3D Mesh Reconstruction with Point Cloud Model Incorporating Spatial Structure, cvpr workshop 2019
 
 ### Implicit neural representations [1]
 - Convolutional Occupancy Networks
