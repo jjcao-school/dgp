@@ -17,11 +17,11 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [01_00_geometry & its representations](http://pan-yz.chaoxing.com/share/info/bce1099958c1faaf)
 - [01_01_implicit_representations](http://pan-yz.chaoxing.com/share/info/4d2497d6e132c4d1)
 - [01_02_explicit_representations](http://pan-yz.chaoxing.com/share/info/d6056d09fb0fab80)
+- [01_03_01_meshes and manifolds](http://pan-yz.chaoxing.com/share/info/1a9e9608117f5f34)
+- [01_03_02_meshes_datastructure](http://pan-yz.chaoxing.com/share/info/fa2e339d573f3d7e): Halfedge
+- [01_04_implicit_explicit_conversion](http://pan-yz.chaoxing.com/share/info/8e58aec9f08e3a00): Fast Marching, Marching Cube
+- [02_00_intro_scanning](http://pan-yz.chaoxing.com/share/info/3f34fcb074ff80e7)
 - TODO
-- [01_03_01_meshes and manifolds]()
-- [01_03_02_meshes_datastructure](): Halfedge
-- [01_04_implicit_explicit_conversion](): Marching Cube
-- [02_00_intro_scanning]()
 - [02_01_points](): knn, filter
 - [02_02_unoriented_normals](): PCA, RANSAC, n-jet
 - [02_03_oriented_normals](): 
@@ -35,8 +35,8 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [07_parameterization]():
 - 
 ## 2. Assignments
-- [Rules & Setup](assignments/)
-- [Assignment 1: Hello World (Mesh display, Connected Components & Subdivision)](assignments/Assignment_1), deadline: TBD
+- [Rules & Setup](assignments/), deadline: 1st weekend
+- [Assignment 1: Hello World (Mesh display, Connected Components & Subdivision)](assignments/Assignment_1), deadline: 2nd weekend
 - [Assignment 2: Implicit Surface Reconstruction](assignments/Assignment_2), deadline: TBD
 - [Assignment 3: Normals, Curvatures, and Smoothing](assignments/Assignment_3), deadline: TBD
 - [Assignment 4: ICP](), deadline: TBD
@@ -75,14 +75,16 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - DIST: Rendering deep implicit signed distance function with differentiable sphere tracing, cvpr20
 - SDFDiff: Differentiable rendering of signed distance fields for 3D shape optimization, cvpr20 -->
 
-
-### Reconstruction
+### Deep point basic
+- Self-Supervised Deep Learning on Point Clouds by Reconstructing Space, nips 19
+- 
+<!-- ### Reconstruction
 - Deep Marching Cubes: Learning Explicit Surface Representations, cvpr18 
 - Analytic Marching: An Analytic Meshing Solution from Deep Implicit Surface Networks 2020
 - MeshSDF: Differentiable Iso-Surface Extraction, 2020 [image 2 mesh]
 - PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization
 - ARCH: Animatable Reconstruction of Clothed Humans (CVPR 2020)
-- Multiview Neural Surface Reconstruction by Disentangling Geometry and Appearance 2020
+- Multiview Neural Surface Reconstruction by Disentangling Geometry and Appearance 2020 -->
   
 <!-- ### Object detection -->
 ### Tracking
@@ -100,7 +102,7 @@ for Autonomous Driving 2020
 - [CloudCompare](https://www.danielgm.net/cc/): 3D point cloud and mesh processing software
 
 ### References:
-- Geometric Modeling - CSCI-GA.3033-018, Daniele Panozzo
+- [Geometric Modeling - CSCI-GA.3033-018, Daniele Panozzo](https://github.com/danielepanozzo/gp)
 
 
 <!-- <li>[Book]: <img src="https://images-na.ssl-images-amazon.com/images/I/41ahRBWW%2BjL._SX335_BO1,204,203,200_.jpg"  width="20%" alt="A Sampler of Useful Computational Tools for Applied Geometry, Computer Graphics, and Image Processing. Daniel Cohen-Or, Chen Greif, Tao Ju, Niloy J. Mitra, Ariel Shamir, Olga Sorkine-Hornung, Hao Zhang, 2015." />
