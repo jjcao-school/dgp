@@ -58,7 +58,7 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - Deep Local Shapes: Learning Local SDF Priors for Detailed 3D Reconstruction 2020
 - PatchNets: Patch-Based Generalizable Deep Implicit 3D Shape Representations 2021
 - 
-- **MetaSDF: Meta-learning Signed Distance Functions, 2020**
+- MetaSDF: Meta-learning Signed Distance Functions, 2020
 
 ### Implicit neural representations [2]
 - Points2Surf 2020
@@ -73,16 +73,29 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - SALD: Sign Agnostic Learning with Derivatives, icld 2021
 - **[SIREN2020], Implicit Neural Representations with Periodic Activation Functions, NeurIPS 2020 (Oral)**
 
+### Deep point basic
+- Self-Supervised Deep Learning on Point Clouds by Reconstructing Space, nips 19
+- PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding, ECCV, 2020.
+- PointAugment: An Auto-Augmentation Framework for Point Cloud Classification
+- A Simple Framework for Contrastive Learning of Visual Representations
+- fixmatch，nips 2020
+
+### Detection & Tracking
+- Robust Multi-Modality Multi-Object Tracking, iccv 2019
+- Probabilistic 3D Multi-Modal, Multi-Object Tracking
+for Autonomous Driving 2020
+- PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation (2018CVPR)
+- Center-based 3d object detection and tracking
+- Detection and Tracking of Small Objects in Sparse 3D Laser Range Data, 2019, ICRA
+
 <!--
 ### Implicit neural representations [4]
 - Neural Volumes: Learning Dynamic Renderable Volumes from Images, sig19
 - Deep Implicit Templates for 3D Shape Representation, 2020
 - DIST: Rendering deep implicit signed distance function with differentiable sphere tracing, cvpr20
 - SDFDiff: Differentiable rendering of signed distance fields for 3D shape optimization, cvpr20 -->
-
-### Deep point basic
-- Self-Supervised Deep Learning on Point Clouds by Reconstructing Space, nips 19
-- 
+  
+<!-- ### Matching -->
 <!-- ### Reconstruction
 - Deep Marching Cubes: Learning Explicit Surface Representations, cvpr18 
 - Analytic Marching: An Analytic Meshing Solution from Deep Implicit Surface Networks 2020
@@ -90,14 +103,7 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization
 - ARCH: Animatable Reconstruction of Clothed Humans (CVPR 2020)
 - Multiview Neural Surface Reconstruction by Disentangling Geometry and Appearance 2020 -->
-  
-<!-- ### Object detection -->
-### Tracking
-- Robust Multi-Modality Multi-Object Tracking 2019
-- Probabilistic 3D Multi-Modal, Multi-Object Tracking
-for Autonomous Driving 2020
-<!-- ### Matching -->
-
+- 
 ## 4. Resources
 ### Suggestions [->](https://github.com/jjcao-school/common/tree/main/for_students)
 
