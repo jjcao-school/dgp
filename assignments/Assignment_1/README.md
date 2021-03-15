@@ -99,10 +99,17 @@ per-vertex shading.
 
 On models with sharp feature lines, averaging the per-face normals on the feature, as done for per-vertex shading, may result in blurred rendering. It is possible to avoid this limitation and to render crisp sharp features by using per-corner normals. In this case, a different normal is assigned to each face corner; this implies that every vertex will get a (possibly different) normal for every adjacent face. A threshold parameter is used to decide when an edge belongs to a sharp feature. The threshold is applied to the angle between the two corner normals: if it is less than the threshold value, the normals must be averaged, otherwise they are kept untouched.  Your program should compute the appropriate shading normals (with a threshold of your choice) and shade the input mesh with per-vertex shading.
 
-*Relevant `igl` functions:* `igl.per_corner_normals`.
+Could you plot per-face normals on the barycenter of each face? Could you plot per-vertex normals on each vertex?
+
+
+*Relevant `igl` functions:* `igl.per_corner_normals`, 'igl.barycenter', 'igl.avg_edge_length'
+*Example: *
+```bash
+d = meshplot.plot(v, f, n=nf)
+d.add_lines(bc, bc + nf * avg)
+```
 
 Compare the result must be compared with the one obtained with flat and per-vertex shading. Experiment with the threshold value.
-
 
 Required output of this section:
 
