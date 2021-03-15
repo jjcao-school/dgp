@@ -37,7 +37,7 @@ you must just import the package `import igl`.
 ### Vertex-to-Face Relations
 Given V and F, generate an adjacency list which contains, for each vertex, a
 list of faces adjacent to it. The ordering of the faces incident on a vertex
-does not matter. Your program should print out the vertex-to-face relations.
+does not matter. Your program should print out **the vertex-to-face relations. Explain the output,Please!!!** 
 
 *Relevant `igl` functions:* `igl.vertex_triangle_adjacency`.
 
