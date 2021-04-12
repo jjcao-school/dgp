@@ -39,8 +39,8 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [Assignment 1: Hello World (Mesh display, Connected Components & Subdivision)](assignments/Assignment_1), deadline: 2nd weekend
 - [Assignment 2: Implicit Surface Reconstruction](assignments/Assignment_2), deadline: TBD
 - [Assignment 3: Normals, Curvatures, and Smoothing](assignments/Assignment_3), deadline: TBD
-- [Assignment 4: Mesh Parameterization](), deadline: TBD
-- [Assignment 5: Shape Deformation](), deadline: TBD
+- [Assignment 4: Mesh Parameterization](assignments/Assignment_4), deadline: TBD
+- [Assignment 5: Shape Deformation](assignments/Assignment_5), deadline: TBD
 
 ## 3. Reading Topics
 ### Normal estimation
