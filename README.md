@@ -14,6 +14,7 @@ In this course, we study the algorithms and mathematics for representing, analyz
 
 ## 1. Course Notes
 - [00_introduction](http://pan-yz.chaoxing.com/share/info/500d49595b4a971f)
+### 1.1 Representations
 - [01_00_geometry & its representations](http://pan-yz.chaoxing.com/share/info/bce1099958c1faaf)
 - [01_01_implicit_representations](http://pan-yz.chaoxing.com/share/info/4d2497d6e132c4d1)
 - [01_02_explicit_representations](http://pan-yz.chaoxing.com/share/info/d6056d09fb0fab80)
@@ -21,19 +22,30 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [01_03_02_meshes_datastructure](http://pan-yz.chaoxing.com/share/info/fa2e339d573f3d7e): Halfedge
 - [01_04_implicit_explicit_conversion](http://pan-yz.chaoxing.com/share/info/8e58aec9f08e3a00): Fast Marching, Marching Cube
 - [02_00_intro_scanning](http://pan-yz.chaoxing.com/share/info/3f34fcb074ff80e7)
-- TODO
+### 1.2 Pointss
 - [02_01_points](): knn, filter
 - [02_02_unoriented_normals](): PCA, RANSAC, n-jet
 - [02_03_oriented_normals](): 
 - [02_03_consolidation](): 
-- [03_intro_reconstruction]()
-- [04_00_smoothing]():
-- [04_00_remeshing]():
 - [05_01_icp]()
 - [05_01_matching]():
-- [06_DDG]():
-- [07_parameterization]():
-- 
+- [surface reconstruction - introduction](http://pan-yz.chaoxing.com/share/info/559b1b07ec8aad26)
+- [surface reconstruction - RBF, MLS](http://pan-yz.chaoxing.com/share/info/27f75a18160b9dd1)
+- [surface reconstruction - Poisson](http://pan-yz.chaoxing.com/share/info/c08e4dc471e3cf4b)
+- [surface reconstruction - SSD](http://pan-yz.chaoxing.com/share/info/5654e17799fdcd95)
+  
+### 1.3 Meshes
+- [04_00_smoothing](http://pan-yz.chaoxing.com/share/info/715cb34431d2ebdb):
+- [04_00_remeshing](http://pan-yz.chaoxing.com/share/info/efcea209e9db3ad1):
+- [vector field](http://pan-yz.chaoxing.com/share/info/4cb4b53b2a094c5e): simple version
+- [07_parameterization](http://pan-yz.chaoxing.com/share/info/7d6968f1f2aa12b3):
+- [space deformation](http://pan-yz.chaoxing.com/share/info/a29cb47c36f2815c):
+- [surface deformation](http://pan-yz.chaoxing.com/share/info/292c93d2206c6550):
+### 1.4 Discrete Differential Geometry  
+- [Continuous Differential Geometry-Curve]():
+- [Continuous Differential Geometry-Surface]():
+- [Discrete Differential Geometry]():
+  
 ## 2. Assignments
 - [Rules & Setup](assignments/), deadline: 1st weekend
 - [Assignment 1: Hello World (Mesh display, Connected Components & Subdivision)](assignments/Assignment_1), deadline: 2nd weekend
