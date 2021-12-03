@@ -1,4 +1,4 @@
-# Digital Geometry 2021 (DLUT)
+# Digital Geometry 2022 (DLUT)
 ## 0. Introduction
 
 Digital geometry processing (DGP), a subfield of computer graphics will be introduced in this course. Recent innovation in 3D acquisition (3D scanning, realtime depth sensor) and 3D production (3D printing) technologies, has made DGP become one of the vital technologies in applications ranging from CAD, interactive games, machine perception, robotics to other related fields. 
@@ -12,8 +12,13 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - Textbook: <img src="https://images.tandf.co.uk/common/jackets/amazon/978156881/9781568814261.jpg"  width="20%" alt="M. Botsch, L. Kobbelt, M. Pauly, P. Alliez, and B. Lévy. Polygon mesh processing. CRC press, 2010." />
     [pdf](ftp://nozdr.ru/biblio/kolxo3/Cs/CsCg/Botsch%20M.,%20et%20al.%20Polygon%20mesh%20processing%20(AK%20Peters,%202010)(ISBN%201568814267)(C)(O)(243s)_CsCg_.pdf), with ppt & source code @ http://www.pmp-book.org.
 
-## 1. Course Notes
+## 1. Schedule
 - [00_introduction](http://pan-yz.chaoxing.com/share/info/500d49595b4a971f)
+- [02_01_points](): knn, filter
+- 3d Scanning, [slider](http://pan-yz.chaoxing.com/share/info/3f34fcb074ff80e7)
+  - Active Illumination Methods
+    - Time of Flight Method, slider, [video](https://fpcv.cs.columbia.edu/)
+- 
 ### 1.1 Representations
 - [01_00_geometry & its representations](http://pan-yz.chaoxing.com/share/info/bce1099958c1faaf)
 - [01_01_implicit_representations](http://pan-yz.chaoxing.com/share/info/4d2497d6e132c4d1)
@@ -21,9 +26,9 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [01_03_01_meshes and manifolds](http://pan-yz.chaoxing.com/share/info/1a9e9608117f5f34)
 - [01_03_02_meshes_datastructure](http://pan-yz.chaoxing.com/share/info/fa2e339d573f3d7e): Halfedge
 - [01_04_implicit_explicit_conversion](http://pan-yz.chaoxing.com/share/info/8e58aec9f08e3a00): Fast Marching, Marching Cube
-- [02_00_intro_scanning](http://pan-yz.chaoxing.com/share/info/3f34fcb074ff80e7)
+
 ### 1.2 Pointss
-- [02_01_points](): knn, filter
+
 - [02_02_unoriented_normals](): PCA, RANSAC, n-jet
 - [02_03_oriented_normals](): 
 - [02_03_consolidation](): 
