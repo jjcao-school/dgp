@@ -14,21 +14,25 @@ In this course, we study the algorithms and mathematics for representing, analyz
 
 ## 1. Schedule
 - [00_introduction](http://pan-yz.chaoxing.com/share/info/500d49595b4a971f)
+- [01_03_01_meshes and manifolds](http://pan-yz.chaoxing.com/share/info/1a9e9608117f5f34)
+- [01_03_02_meshes_datastructure](http://pan-yz.chaoxing.com/share/info/fa2e339d573f3d7e): Halfedge
 - [02_01_points](): knn, filter
 - 3d Scanning, [slider](http://pan-yz.chaoxing.com/share/info/3f34fcb074ff80e7)
   - Active Illumination Methods
     - Time of Flight Method, slider, [video](https://fpcv.cs.columbia.edu/)
-- 
-### 1.1 Representations
-- [01_00_geometry & its representations](http://pan-yz.chaoxing.com/share/info/bce1099958c1faaf)
-- [01_01_implicit_representations](http://pan-yz.chaoxing.com/share/info/4d2497d6e132c4d1)
-- [01_02_explicit_representations](http://pan-yz.chaoxing.com/share/info/d6056d09fb0fab80)
-- [01_03_01_meshes and manifolds](http://pan-yz.chaoxing.com/share/info/1a9e9608117f5f34)
-- [01_03_02_meshes_datastructure](http://pan-yz.chaoxing.com/share/info/fa2e339d573f3d7e): Halfedge
-- [01_04_implicit_explicit_conversion](http://pan-yz.chaoxing.com/share/info/8e58aec9f08e3a00): Fast Marching, Marching Cube
+    - LiDAR
+- ### 1.1 LiDAR denosing
+- [04_00_smoothing](http://pan-yz.chaoxing.com/share/info/715cb34431d2ebdb):
+- 1 Airborne Particle Classification in LiDAR Point Clouds Using Deep Learning, fsr19
+- 2 Weather Classification Using an Automotive LIDAR Sensor Based on Detections on Asphalt and Atmosphere, Sensors, 20
+- 3 LaNoising: A Data-driven Approach for 903nm ToF LiDAR Performance Modeling under Fog, IROS 20
+- 4 Deep Learning Method on Target Echo Signal Recognition for Obscurant Penetrating Lidar Detection in Degraded Visual Environments, sensors, 20.
+- 5 Fast and Accurate Desnowing Algorithm for LiDAR Point Clouds, access, 20
+- 6 Robust Multimodal Vehicle Detection in Foggy Weather Using Complementary Lidar and Radar Signals, cvpr 21
+- 7 nuScenes: A Multimodal Dataset for Autonomous Driving, cvpr20
+- 8 Seeing Through Fog Without Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather, cvpr 20
 
-### 1.2 Pointss
-
+### 1.2 Points
 - [02_02_unoriented_normals](): PCA, RANSAC, n-jet
 - [02_03_oriented_normals](): 
 - [02_03_consolidation](): 
@@ -38,34 +42,35 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [surface reconstruction - RBF, MLS](http://pan-yz.chaoxing.com/share/info/27f75a18160b9dd1)
 - [surface reconstruction - Poisson](http://pan-yz.chaoxing.com/share/info/c08e4dc471e3cf4b)
 - [surface reconstruction - SSD](http://pan-yz.chaoxing.com/share/info/5654e17799fdcd95)
-  
-### 1.3 Meshes
-- [04_00_smoothing](http://pan-yz.chaoxing.com/share/info/715cb34431d2ebdb):
-- [04_00_remeshing](http://pan-yz.chaoxing.com/share/info/efcea209e9db3ad1):
-- [vector field](http://pan-yz.chaoxing.com/share/info/4cb4b53b2a094c5e): simple version
-- [07_parameterization](http://pan-yz.chaoxing.com/share/info/7d6968f1f2aa12b3):
-- [space deformation](http://pan-yz.chaoxing.com/share/info/a29cb47c36f2815c):
-- [surface deformation](http://pan-yz.chaoxing.com/share/info/292c93d2206c6550):
-### 1.4 Discrete Differential Geometry  
-- [Continuous Differential Geometry-Curve]():
-- [Continuous Differential Geometry-Surface]():
-- [Discrete Differential Geometry]():
-  
-## 2. Assignments
-- [Rules & Setup](assignments/), deadline: 1st weekend
-- [Assignment 1: Hello World (Mesh display, Connected Components & Subdivision)](assignments/Assignment_1), deadline: 2nd weekend
-- [Assignment 2: Implicit Surface Reconstruction](assignments/Assignment_2), deadline: TBD
-- [Assignment 3: Normals, Curvatures, and Smoothing](assignments/Assignment_3), deadline: TBD
-- [Assignment 4: Mesh Parameterization](assignments/Assignment_4), deadline: TBD
-- [Assignment 5: Shape Deformation](assignments/Assignment_5), deadline: TBD
+- 
+- ### 1.2 Point cloud denoising
+- 1. Dynamic point cloud denoising via manifold-to-manifold distance，TIP 2021. （点云序列的去噪）
+- 2. RePCD-Net: Feature-Aware Recurrent Point Cloud Denoising Network，IJCV 2022.
+- 3. PC2-PU: Patch Correlation and Position Correction for Effective Point Cloud Upsampling，2021
+- 4. Rethinking Point Cloud Filtering: A Non-Local Position Based Approach，CAD 2022 （3，4都考虑了相似patch的问题）
+- 5. Deep Point Set Resampling via Gradient Fields，2022.（score+拉普拉斯）
+- 6. PD-Flow: A Point Cloud Denoising Framework with Normalizing Flows，2022
 
-## 3. Reading Topics
-### Normal estimation
-- Deep Iterative Surface Normal Estimations, cvpr 2020.
-- DeepFit: 3D Surface Fitting via Neural Network Weighted Least Squares, eccv 2020
-- PCPNET: Learning Local Shape Properties from Raw Point Clouds, eg 2018
-- Latent Tangent Space Representation for Normal Estimation, tie 2021
-- Normal Estimation for Accurate 3D Mesh Reconstruction with Point Cloud Model Incorporating Spatial Structure, cvpr workshop 2019
+- ### 1.3 Detection
+- 1. DisARM: Displacement Aware Relation Module for 3D Detection，CVPR2022，（室内检测）
+- 2. Point2Seq: Detecting 3D Objects as Sequences，CVPR2022
+- 3. SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud，CVPR2021，
+- 4. Pv-rcnn++: Point-voxel feature set abstraction with local vector representation for 3d object detection
+- 5. Embracing Single Stride 3D Object Detector with Sparse Transformer, cvpr 22
+
+- ### 1.4 Tracing
+- 1. PTTR: Relational 3D Point Cloud Object Tracking with Transformer，CVPR2022
+- 2. 3D Siamese Voxel-to-BEV Tracker for Sparse Point Clouds，NIPS2021
+- 3. Beyond 3D Siamese Tracking: A Motion-Centric Paradigm for 3D - 4. Single Object Tracking in Point Clouds，CVPR2022
+- 5. Exploring Simple 3D Multi-Object Tracking for Autonomous Driving，ICCV2021（多目标）
+
+- ### 1.5 Normal Estimation
+- 1. Deep Iterative Surface Normal Estimations, cvpr 2020.
+- 2. DeepFit: 3D Surface Fitting via Neural Network Weighted Least Squares, eccv 2020
+- 3. PCPNET: Learning Local Shape Properties from Raw Point Clouds, eg 2018
+- 4. Latent Tangent Space Representation for Normal Estimation, tie 2021
+- 5. Normal Estimation for Accurate 3D Mesh Reconstruction with Point Cloud Model Incorporating Spatial Structure, cvpr workshop 2019
+- 6. Geometry Guided Deep Surface Normal Estimation. CAD 22.
 
 ### Implicit neural representations [1]
 - Convolutional Occupancy Networks
@@ -90,6 +95,34 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - SALD: Sign Agnostic Learning with Derivatives, icld 2021
 - **[SIREN2020], Implicit Neural Representations with Periodic Activation Functions, NeurIPS 2020 (Oral)**
 
+
+### 1.1 Representations
+- [01_00_geometry & its representations](http://pan-yz.chaoxing.com/share/info/bce1099958c1faaf)
+- [01_01_implicit_representations](http://pan-yz.chaoxing.com/share/info/4d2497d6e132c4d1)
+- [01_02_explicit_representations](http://pan-yz.chaoxing.com/share/info/d6056d09fb0fab80)
+
+- [01_04_implicit_explicit_conversion](http://pan-yz.chaoxing.com/share/info/8e58aec9f08e3a00): Fast Marching, Marching Cube
+  
+### 1.3 Meshes
+- [04_00_remeshing](http://pan-yz.chaoxing.com/share/info/efcea209e9db3ad1):
+- [vector field](http://pan-yz.chaoxing.com/share/info/4cb4b53b2a094c5e): simple version
+- [07_parameterization](http://pan-yz.chaoxing.com/share/info/7d6968f1f2aa12b3):
+- [space deformation](http://pan-yz.chaoxing.com/share/info/a29cb47c36f2815c):
+- [surface deformation](http://pan-yz.chaoxing.com/share/info/292c93d2206c6550):
+### 1.4 Discrete Differential Geometry  
+- [Continuous Differential Geometry-Curve]():
+- [Continuous Differential Geometry-Surface]():
+- [Discrete Differential Geometry]():
+  
+## 2. Assignments
+- [Rules & Setup](assignments/), deadline: 1st weekend
+- [Assignment 1: Hello World (Mesh display, Connected Components & Subdivision)](assignments/Assignment_1), deadline: 2nd weekend
+- [Assignment 2: Implicit Surface Reconstruction](assignments/Assignment_2), deadline: TBD
+- [Assignment 3: Normals, Curvatures, and Smoothing](assignments/Assignment_3), deadline: TBD
+- [Assignment 4: Mesh Parameterization](assignments/Assignment_4), deadline: TBD
+- [Assignment 5: Shape Deformation](assignments/Assignment_5), deadline: TBD
+
+## 3. Reading Topics
 ### Deep point basic
 - Self-Supervised Deep Learning on Point Clouds by Reconstructing Space, nips 19
 - PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding, ECCV, 2020.
