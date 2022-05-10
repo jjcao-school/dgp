@@ -122,38 +122,9 @@ In this course, we study the algorithms and mathematics for representing, analyz
 - [Assignment 4: Mesh Parameterization](assignments/Assignment_4), deadline: TBD
 - [Assignment 5: Shape Deformation](assignments/Assignment_5), deadline: TBD
 
-## 3. Reading Topics
-### Deep point basic
-- Self-Supervised Deep Learning on Point Clouds by Reconstructing Space, nips 19
-- PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding, ECCV, 2020.
-- PointAugment: An Auto-Augmentation Framework for Point Cloud Classification
-- A Simple Framework for Contrastive Learning of Visual Representations
-- fixmatch，nips 2020
+## 3. Presentations
+- [2 minite papers](https://github.com/jjcao-school/common/blob/main/for_students/2mins_present.md)
 
-### Detection & Tracking
-- Robust Multi-Modality Multi-Object Tracking, iccv 2019
-- Probabilistic 3D Multi-Modal, Multi-Object Tracking
-for Autonomous Driving 2020
-- PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation (2018CVPR)
-- Center-based 3d object detection and tracking
-- Detection and Tracking of Small Objects in Sparse 3D Laser Range Data, 2019, ICRA
-
-<!--
-### Implicit neural representations [4]
-- Neural Volumes: Learning Dynamic Renderable Volumes from Images, sig19
-- Deep Implicit Templates for 3D Shape Representation, 2020
-- DIST: Rendering deep implicit signed distance function with differentiable sphere tracing, cvpr20
-- SDFDiff: Differentiable rendering of signed distance fields for 3D shape optimization, cvpr20 -->
-  
-<!-- ### Matching -->
-<!-- ### Reconstruction
-- Deep Marching Cubes: Learning Explicit Surface Representations, cvpr18 
-- Analytic Marching: An Analytic Meshing Solution from Deep Implicit Surface Networks 2020
-- MeshSDF: Differentiable Iso-Surface Extraction, 2020 [image 2 mesh]
-- PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization
-- ARCH: Animatable Reconstruction of Clothed Humans (CVPR 2020)
-- Multiview Neural Surface Reconstruction by Disentangling Geometry and Appearance 2020 -->
-- 
 ## 4. Resources
 ### Suggestions [->](https://github.com/jjcao-school/common/tree/main/for_students)
 
