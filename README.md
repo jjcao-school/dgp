@@ -1,4 +1,4 @@
-# Digital Geometry 2022 (DLUT)
+# Digital Geometry 2024 (DLUT)
 ## 0. Introduction
 
 Digital geometry processing (DGP), a subfield of computer graphics will be introduced in this course. Recent innovation in 3D acquisition (3D scanning, realtime depth sensor) and 3D production (3D printing) technologies, has made DGP become one of the vital technologies in applications ranging from CAD, interactive games, machine perception, robotics to other related fields. 
@@ -8,11 +8,14 @@ In this course, we study the algorithms and mathematics for representing, analyz
 
 
 - Course Instructor: [Junjie Cao](http://jjcao.github.io/); Email: jjcao at dlut.edu.cn; 
-- Lectures: Tuesday & Thursdays at 18:00 - 18:45, 18:55 - 19:40. 研教楼312.
+- Lectures: Monday & Thursdays at 18:00 - 18:45, 18:55 - 19:40. 研教楼210.
 - Textbook: <img src="https://images.tandf.co.uk/common/jackets/amazon/978156881/9781568814261.jpg"  width="20%" alt="M. Botsch, L. Kobbelt, M. Pauly, P. Alliez, and B. Lévy. Polygon mesh processing. CRC press, 2010." />
     [pdf](ftp://nozdr.ru/biblio/kolxo3/Cs/CsCg/Botsch%20M.,%20et%20al.%20Polygon%20mesh%20processing%20(AK%20Peters,%202010)(ISBN%201568814267)(C)(O)(243s)_CsCg_.pdf), with ppt & source code @ http://www.pmp-book.org.
 
 ## 1. Schedule
+https://jjcao.notion.site/dgp2024-56d771f729794c37b08c347960930a2c?pvs=4
+schedule部分，今年用上面这个链接。除了这个链接，其它参考“4. Resources”
+
 - [00_introduction](http://pan-yz.chaoxing.com/share/info/500d49595b4a971f)
 - [01_03_01_meshes and manifolds](http://pan-yz.chaoxing.com/share/info/1a9e9608117f5f34)
 - [01_03_02_meshes_datastructure](http://pan-yz.chaoxing.com/share/info/fa2e339d573f3d7e): Halfedge
